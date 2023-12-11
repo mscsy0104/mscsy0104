@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Computer Science, English, etc**
 
-- 💬 Ask me about **Python, Django**
+- 💬 Ask me about **Python, Django, SQL, Math**
 
 - 📫 How to reach me **mscsy0104@gmail.com**
 
