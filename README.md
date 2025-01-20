@@ -1,5 +1,5 @@
 # 👋 안녕하세요!   
-저는 데이터 엔지니어로 일하며 Python과 데이터 처리 기술을 활용해 안정적인 데이터 파이프라인 구축 경험을 쌓고 있습니다.
+저는 데이터 엔지니어로 일하며 Python과 데이터 처리 기술을 활용해 안정적인 데이터 파이프라인 구축 및 비즈니스 요구사항에 부합하는 클렌징 알고리즘 개발 경험을 쌓고 있습니다.
 
 ---
 
@@ -28,7 +28,7 @@
 ---
 
 # 👋 Hello, World!  
-I am **Florence**, A passionate data engineer with experience in building reliable data pipelines, leveraging Python and data processing skills to create impactful solutions.
+I am **Florence**, A passionate data engineer with experience in building reliable data pipelines using Python and data processing technologies, and developing cleansing algorithms that meet business requirements.
 
 ---
 
