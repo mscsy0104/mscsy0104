@@ -1,0 +1,28 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 */24 * * *'  # 24시간마다 실행 (UTC 기준)
+  workflow_dispatch:  # 수동 실행을 허용
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: mscsy0104  # ✨ 자신의 GitHub 사용자 이름으로 변경
+          token: ${{ secrets.README_STATS_TOKEN }}  # ✨ 시크릿 변수 이름으로 변경 (이전에 저장한 이름)
+          output_file: stats.svg  # 출력될 파일명 지정
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add stats.svg
+          git commit -m 'feat: Update GitHub Stats' || echo "No changes to commit"
+          git push
