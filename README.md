@@ -21,7 +21,7 @@ Follow my journey here — where code meets persistence.
 
 
 ### GitHub stats
-![GitHub Stats](https://raw.githubusercontent.com/mscsy0104/mscsy0104/main/stats.svg)
+![mscsy0104's GitHub stats](https://github-readme-stats.vercel.app/api?username=mscsy0104&show_icons=true&theme=tokyonight)
 
 
 
