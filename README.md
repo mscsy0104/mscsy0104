@@ -1,7 +1,8 @@
 # Open Source Contribution
 
 ## [Apache Airflow](https://github.com/apache/airflow)
-- Fix: Prevent Breeze crash when self-upgrade check fails [PR-65656](https://github.com/apache/airflow/pull/65656)
+- Fix: Prevent Breeze crash when self-upgrade check fails [#65656](https://github.com/apache/airflow/pull/65656)
+- Fix: SQS CreateQueue type error by casting attributes to string [#65649](https://github.com/apache/airflow/pull/65649)
 ### 🛠 Tech Stack
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
